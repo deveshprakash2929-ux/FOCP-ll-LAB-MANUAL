@@ -1,7 +1,5 @@
 #include<iostream>
-
 using namespace std;
-
 int main(){
     int num1, num2;
     char choice;
@@ -10,10 +8,8 @@ int main(){
     cin>>choice;
     cout<<"Enter two no.: ";
     cin>>num1>>num2;
-
-
+    
     switch (choice){
-
         case 1 : cout<<num1 + num2;
         break;
         case 2 : cout<<num1 - num2;
